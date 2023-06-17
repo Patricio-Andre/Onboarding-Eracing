@@ -5,7 +5,7 @@ O circuito integrou o uso de um Node MCU 8266 com um MicroSD Module e um sensor 
 Confesso que na prática não consegui aplicar o uso do microSD pela falta de experiência em usar essas bibliotecas, 
 mas mesmo assim o código funciona perfeitamente, caso não tenha um microSD para registrar o log. 
 Nesse caso, o log fica registrado no webserver gerado pelo Node MCU.
-*Problemas e como contorná-los
+### Problemas e como contorná-los
 Um dos problemas que envolvem o uso do photogate é a necessidade de calibração dele. 
 Para contornar esse problema, usei o sensor de distância à laser, que detecta distâncias de até 2.2m.
 Para as provas FSAE a largura mínima da pista gira em torno de 4 metros. 
